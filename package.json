@@ -1,0 +1,22 @@
+{
+  "name": "hackathon-project",
+  "version": "1.0.0",
+  "description": "BloodMatch - Dynamic Emergency Blood Matcher & Rapid Lifeline Platform",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "lint:frontend": "npm --prefix frontend run lint"
+  },
+  "keywords": [
+    "blood-donation",
+    "emergency-matching",
+    "healthcare",
+    "react",
+    "vite",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC"
+}
